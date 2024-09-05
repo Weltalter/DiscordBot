@@ -8,7 +8,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='>', intents=intents) 
 
 @bot.command()
-async def ping(ctx):
+async def test(ctx):
     await ctx.send('''||Спойлер||''')
 
 bot.run(config.TOKEN)
